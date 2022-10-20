@@ -1,5 +1,4 @@
-name: cicd_demo
-    
+name: cicd_demo9   
 on: push
 
 jobs:
@@ -108,4 +107,3 @@ jobs:
           timeout: '3600'
       - name: Run deployment scripts
         run: echo Completed Deployment.
-        
